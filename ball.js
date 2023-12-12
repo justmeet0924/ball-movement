@@ -1,3 +1,5 @@
+//For use, call init() to set property "obj" array this object belong to.
+
 class Ball {
   constructor() {
     this.x = width * random();
