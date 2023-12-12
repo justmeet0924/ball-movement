@@ -13,3 +13,13 @@ function setup() {
 
 
 }
+
+function draw() {
+  background(220);
+
+  bs.forEach((b) => b.render());
+  bs.forEach((b) => b.update());
+  bs.forEach((b) => b.reflect_wall());
+  bs.forEach((b) => b.myColor());
+
+}
