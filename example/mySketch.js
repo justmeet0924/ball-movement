@@ -6,7 +6,7 @@ function setup() {
 
 
   for (let i = 0; i < 5; i++) {
-    bs.push(new Ball(100, 20,"black"));
+    bs.push(new Ball());
   }
 	
   bs.forEach((b) => b.init(bs));
